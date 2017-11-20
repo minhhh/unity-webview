@@ -20,6 +20,7 @@
 
 using System.Collections;
 using UnityEngine;
+using UnityWebview;
 
 public class SampleWebView : MonoBehaviour
 {
@@ -36,6 +37,10 @@ public class SampleWebView : MonoBehaviour
                 Debug.Log(string.Format("CallFromJS[{0}]", msg));
                 status.text = msg;
                 status.GetComponent<Animation>().Play();
+                var data = WebViewHelper.ParseJSMesage (msg);
+                foreach (var x in data) {
+                    Debug.Log ("========x  " + x );
+                }
             },
             err: (msg) =>
             {

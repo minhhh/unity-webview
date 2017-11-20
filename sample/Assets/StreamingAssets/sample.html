@@ -2,6 +2,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Unity WebView</title>
+    <script src="./unityschema.bundle.js?t=as"></script>
   </head>
   <body>
     <h1>Hello Unity WebView!</h1>
@@ -11,6 +12,8 @@
     <p><img src="sample.jpg"/> (local image)</p>
     <hr/>
     <p><a href="javascript:void(0)" onclick="Unity.call('anchor');">[Send Message!]</a></p>
+    <p><a href="unity://close">[Send Close Message!]</a></p>
+    <p><a href="unity://scene?param1=http%3A%2F%2Fexample.com%3Fa%3D10%26b%3D20&param2=hello%20world%20%26%25)(%20%24%23%40)*">[Send Scene Message!]</a></p>
     <form method="get" action="form">
       <input id="input1" type="text" value="hoge" name="msg"/>
       <input type="submit" value="Send Message!" onclick="Unity.call('form?msg=' + document.getElementById('input1').value); return false;"/>

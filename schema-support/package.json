@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "",
+  "description": "",
+  "main": "app.js",
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unshiftio/url-parse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "imports-loader": "^0.7.1",
+    "querystringify": "~1.0.0",
+    "requires-port": "~1.0.0",
+    "url-parse": "^1.2.0"
+  }
+}
