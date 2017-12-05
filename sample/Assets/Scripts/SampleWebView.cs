@@ -84,7 +84,7 @@ public class SampleWebView : MonoBehaviour
 #if UNITY_EDITOR_OSX || UNITY_STANDALONE_OSX
         webViewObject.bitmapRefreshCycle = 1;
 #endif
-        webViewObject.SetMargins(5, 100, 5, Screen.height / 4);
+        webViewObject.SetMargins(0, 0, 0, 0);
         webViewObject.SetVisibility(true);
 
 #if !UNITY_WEBPLAYER

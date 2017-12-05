@@ -7,7 +7,7 @@ PlayerSettings:
   productGUID: 17d7a4b3e162f44209a850d2bb945e86
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -151,7 +151,7 @@ PlayerSettings:
     Android: net.gree.webview.sample
     Standalone: unity.Sample Inc..sample
     Tizen: net.gree.webview.sample
-    iOS: net.gree.webview.sample
+    iOS: com.punch.nproto
     tvOS: net.gree.webview.sample
   buildNumber:
     iOS: 0
@@ -627,7 +627,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.1
-  apiCompatibilityLevel: 3
+  apiCompatibilityLevel: 2
   cloudProjectId: 
   projectName: 
   organizationId: 
