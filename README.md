@@ -7,6 +7,8 @@ on Unity view. It works on Android, iOS, Unity Web Player, and OS X
 unity-webview is derived from keijiro-san's
 https://github.com/keijiro/unity-webview-integration .
 
+This repo also add support for special schema `unity://` in the html file. So you can have link like this in your html: `unity://scene?param1=http%3A%2F%2Fexample.com%3Fa%3D10%26b%3D20&param2=hello%20world%20%26%25)(%20%24%23%40)*`. Note that you have to use `encodeURIComponent` to encode params.
+
 ## Sample Project
 
 It is placed under `sample/`. You can open it and import the plugin as
